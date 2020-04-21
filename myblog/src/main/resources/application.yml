@@ -1,0 +1,18 @@
+spring:
+#环境
+  profiles:
+    active: dev
+  messages:
+    basename: i18n.message
+    encoding: UTF-8
+  banner:
+    charset: UTF-8
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+
+server:
+  tomcat:
+    uri-encoding: UTF-8

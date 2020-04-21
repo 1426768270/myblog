@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="admin/_fragments :: head(~{::title})">
+    <meta charset="UTF-8">
+    <meta name="view" content="width=device-width,initial-scale=1.0">
+    <title>博客管理</title>
+    <link rel="stylesheet" type="text/css" href="../../static/semantic/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="../../static/css/me.css">
+
+</head>
+<body>
+    <!--导航-->
+    <nav th:replace="admin/_fragments::menu(0)"></nav>
+
+
+    <br>
+    <br>
+    <br>
+    <!--中间内容-->
+    <div  class="m-container-small m-padded-tb-big">
+        <div class="ui container">
+            <div class="ui success large  message">
+                <h3>Hi,</h3>
+                <p>naive，欢迎登录！</p>
+            </div>
+
+            <img src="../../static/images/test1.jpg" th:src="@{/images/test1.jpg}" i alt="" class="ui rounded bordered fluid image">
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <!--底部-->
+    <footer th:replace="admin/_fragments ::footer"></footer>
+    <div th:replace="admin/_fragments :: script"></div>
+<script>
+    $('.menu.toggle').click(function () {
+        $('.m-item').toggleClass('m-mobile-hide');
+    });
+    $('.ui.dropdown').dropdown({
+        on : 'hover'
+    });
+</script>
+</body>
+</html>

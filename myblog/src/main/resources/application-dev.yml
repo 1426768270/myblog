@@ -1,0 +1,32 @@
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://123.56.123.169:3306/blog?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    #图标
+  mvc:
+    favicon:
+      enabled: false
+
+comment.avatar: /images/user2.jpg
+
+pagehelper:                #分页插件
+  helper-dialect: mysql
+  reasonable: true
+  support-methods-arguments: true
+  params:
+
+logging:
+  level:
+    root: info
+    com.example.blog: debug
+  file:
+    name: log/blog-dev.log
+
+mybatis:
+  type-aliases-package: com.example.blog.po   #设置别名
+  mapper-locations: classpath:mapper/*.xml   #ָ指定myBatis的核心配置文件与Mapper映射文件
+server:
+  port: 8081

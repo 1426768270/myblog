@@ -1,0 +1,42 @@
+2020-04-20 08:57:50.260  INFO 28300 --- [main] com.example.blog.BlogApplicationTests    : Starting BlogApplicationTests on DESKTOP-BGPJFUK with PID 28300 (started by 14267 in E:\³ÌÐò\practice\blog\myblog)
+2020-04-20 08:57:50.318 DEBUG 28300 --- [main] com.example.blog.BlogApplicationTests    : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-20 08:57:50.319  INFO 28300 --- [main] com.example.blog.BlogApplicationTests    : The following profiles are active: dev
+2020-04-20 08:57:52.385  INFO 28300 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-04-20 08:57:53.148  INFO 28300 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-04-20 08:57:55.447  INFO 28300 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-20 08:57:55.669  INFO 28300 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-20 08:57:56.395  INFO 28300 --- [main] com.example.blog.BlogApplicationTests    : Started BlogApplicationTests in 7.331 seconds (JVM running for 9.224)
+2020-04-20 08:57:57.553 DEBUG 28300 --- [main] com.example.blog.dao.TypeDao.getType     : ==>  Preparing: select id,name from t_type where id = ? 
+2020-04-20 08:57:57.634 DEBUG 28300 --- [main] com.example.blog.dao.TypeDao.getType     : ==> Parameters: 1(Long)
+2020-04-20 08:57:57.665 DEBUG 28300 --- [main] com.example.blog.dao.TypeDao.getType     : <==      Total: 1
+2020-04-20 08:57:57.794  INFO 28300 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-20 08:57:57.796  INFO 28300 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-04-20 08:57:57.850  INFO 28300 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-04-20 11:18:32.789  INFO 36524 --- [main] com.example.blog.BlogApplicationTests    : Starting BlogApplicationTests on DESKTOP-BGPJFUK with PID 36524 (started by 14267 in E:\³ÌÐò\practice\blog\myblog)
+2020-04-20 11:18:32.798 DEBUG 36524 --- [main] com.example.blog.BlogApplicationTests    : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-20 11:18:32.799  INFO 36524 --- [main] com.example.blog.BlogApplicationTests    : The following profiles are active: dev
+2020-04-20 11:18:34.661  INFO 36524 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-04-20 11:18:35.218  INFO 36524 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-04-20 11:18:37.046  INFO 36524 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-20 11:18:37.311  INFO 36524 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-20 11:18:38.151  INFO 36524 --- [main] com.example.blog.BlogApplicationTests    : Started BlogApplicationTests in 6.263 seconds (JVM running for 7.838)
+2020-04-20 11:18:40.822 DEBUG 36524 --- [main] com.example.blog.dao.TypeDao.getType     : ==>  Preparing: select id,name from t_type where id = ? 
+2020-04-20 11:18:40.925 DEBUG 36524 --- [main] com.example.blog.dao.TypeDao.getType     : ==> Parameters: 1(Long)
+2020-04-20 11:18:40.978 DEBUG 36524 --- [main] com.example.blog.dao.TypeDao.getType     : <==      Total: 1
+2020-04-20 11:18:41.210  INFO 36524 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-20 11:18:41.212  INFO 36524 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-04-20 11:18:41.217  INFO 36524 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-04-20 11:26:31.618  INFO 35116 --- [main] com.example.blog.BlogApplicationTests    : Starting BlogApplicationTests on DESKTOP-BGPJFUK with PID 35116 (started by 14267 in E:\³ÌÐò\practice\blog\myblog)
+2020-04-20 11:26:31.620 DEBUG 35116 --- [main] com.example.blog.BlogApplicationTests    : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-04-20 11:26:31.621  INFO 35116 --- [main] com.example.blog.BlogApplicationTests    : The following profiles are active: dev
+2020-04-20 11:26:34.099  INFO 35116 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-04-20 11:26:34.472  INFO 35116 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-04-20 11:26:37.276  INFO 35116 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-20 11:26:37.995  INFO 35116 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-20 11:26:39.509  INFO 35116 --- [main] com.example.blog.BlogApplicationTests    : Started BlogApplicationTests in 8.957 seconds (JVM running for 10.924)
+2020-04-20 11:26:41.807 DEBUG 35116 --- [main] com.example.blog.dao.TypeDao.getType     : ==>  Preparing: select id,name from t_type where id = ? 
+2020-04-20 11:26:41.849 DEBUG 35116 --- [main] com.example.blog.dao.TypeDao.getType     : ==> Parameters: 1(Long)
+2020-04-20 11:26:41.915 DEBUG 35116 --- [main] com.example.blog.dao.TypeDao.getType     : <==      Total: 1
+2020-04-20 11:26:41.985  INFO 35116 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-20 11:26:41.986  INFO 35116 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-04-20 11:26:41.992  INFO 35116 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
