@@ -8,7 +8,7 @@
   * 数据库:mysql
 
 工具与环境：
-  IDEA
-  Maven 3.6.1
-  JDK 12
-  springboot 2.2.6
+  * IDEA
+  * Maven 3.6.1
+  * JDK 8
+  * springboot 2.2.6
